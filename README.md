@@ -58,6 +58,7 @@ Every output requires human review for:
 | **Language editing and translation** | DeepL | Translation, language refinement and clarity checks |
 | **Documentation and project organization** | GitHub, Notion | Documenting prompts, workflows, examples and project development |
 | **Visual content support** | Canva | Preparing simple diagrams, prompt cards and supporting visuals |
+
 Tool selection depends on the task, source materials and required level of editorial control. AI-generated outputs are always reviewed and refined before publication.
 
 ## Repository structure
