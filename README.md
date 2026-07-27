@@ -50,10 +50,15 @@ Every output requires human review for:
 - audience fit,
 - final editorial quality.
 
-## Tools
-- ChatGPT
-- Claude
-- NotebookLM
+## Tools used in this project
+| Area | Tools | Application |
+|---|---|---|
+| **AI content creation and editing** | ChatGPT, Claude | Prompt testing, drafting, rewriting, content review and output comparison |
+| **Research and source analysis** | NotebookLM | Working with source materials, extracting insights and organizing research |
+| **Language editing and translation** | DeepL | Translation, language refinement and clarity checks |
+| **Documentation and project organization** | GitHub, Notion | Documenting prompts, workflows, examples and project development |
+| **Visual content support** | Canva | Preparing simple diagrams, prompt cards and supporting visuals |
+Tool selection depends on the task, source materials and required level of editorial control. AI-generated outputs are always reviewed and refined before publication.
 
 ## Repository structure
 ```text
