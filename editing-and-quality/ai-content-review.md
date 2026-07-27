@@ -1,8 +1,14 @@
 # AI-Generated Content and UX Writing Review
 
+> **Version:** 1.0  
+> **Last updated:** July 2026  
+> **Scope:** Marketing content, editorial quality assurance and UX writing
+
 ## Purpose
 This workflow supports the editorial review of AI-generated marketing content and digital interface copy.
+
 It helps identify issues related to factual accuracy, clarity, structure, tone of voice, audience relevance, usability and overall content quality.
+
 The workflow is designed to support human editorial judgment rather than replace it.
 
 ## Use cases
@@ -64,12 +70,23 @@ When reviewing interface content, the model should assess whether the copy:
 - remains understandable when viewed without surrounding visual elements,
 - is concise enough for mobile interfaces,
 - follows accessibility and inclusive-language principles,
-- supports the intended user journey.
+- supports the intended user journey,
+- avoids manipulative, misleading or high-pressure interface language,
+- clearly communicates the consequences of accepting, declining or cancelling an action.
+
+## Data privacy and confidentiality
+Before submitting content to an AI tool:
+- remove personal data unless its use has been explicitly approved,
+- do not include confidential, proprietary or unpublished business information,
+- follow the organization’s internal AI and data-processing policies,
+- anonymize customer, employee and partner information when possible,
+- confirm that the selected tool is approved for the type of data being processed.
+
+The editor remains responsible for deciding whether the material can be safely processed by an external AI system.
 
 ## Human review
 AI-generated suggestions should be treated as recommendations rather than final editorial decisions.
 The editor remains responsible for:
-
 - verifying facts and sources,
 - reviewing context,
 - maintaining brand consistency,
@@ -82,9 +99,11 @@ The editor remains responsible for:
 ## Expected output
 The model should provide:
 - a short overall assessment,
+- a publication-readiness recommendation,
 - the three most important issues,
 - specific correction recommendations,
 - a list of statements requiring verification,
+- an evidence status for each important claim: supported, unsupported or requires verification,
 - an improved version of the content,
 - a final quality checklist,
 - UX writing recommendations, when the content appears in a digital interface,
@@ -92,7 +111,6 @@ The model should provide:
 - identification of unclear, inconsistent or potentially misleading interface copy.
 
 ## Reusable prompt template
-
 ```text
 You are a senior content editor and UX writer responsible for reviewing AI-generated content before publication.
 
@@ -108,6 +126,7 @@ CONTEXT
 - Brand guidelines: [add guidelines or write "not provided"]
 - User journey or interface context: [add context or write "not applicable"]
 - Character or space limitations: [add limits or write "none"]
+- Accessibility or usability requirements: [add requirements or write "not provided"]
 - Source materials: [add sources or write "not provided"]
 
 CONTENT TO REVIEW
@@ -129,13 +148,22 @@ Evaluate the content for:
 9. clarity of calls to action,
 10. terminology consistency,
 11. usability, accessibility and inclusive language,
-12. suitability for mobile interfaces, when relevant.
+12. suitability for mobile interfaces, when relevant,
+13. manipulative, misleading or high-pressure interface language,
+14. clarity regarding the consequences of accepting, declining or cancelling an action.
 
 OUTPUT FORMAT
 
 ### 1. Overall assessment
 
 Provide a concise assessment of the content and its readiness for publication.
+
+End the assessment with one publication recommendation:
+
+- Ready for publication
+- Ready after minor revisions
+- Requires substantial revision
+- Not ready for publication
 
 ### 2. Priority issues
 
@@ -150,11 +178,30 @@ Present the three most important issues in a table with the following columns:
 
 List all factual, numerical, legal, medical, technical or potentially misleading claims that require human verification.
 
+For each important claim, assign one of the following evidence statuses:
+
+- Supported by the provided sources
+- Unsupported by the provided sources
+- Requires external verification
+
 Do not confirm a claim unless it is supported by the provided source materials.
+
+Do not treat general model knowledge as a verified source.
 
 ### 4. Editorial recommendations
 
-Provide specific recommendations related to clarity, structure, tone, audience relevance and brand consistency.
+Provide specific recommendations related to:
+
+- clarity,
+- structure,
+- tone of voice,
+- audience relevance,
+- brand consistency,
+- readability,
+- content length,
+- information hierarchy.
+
+Clearly distinguish factual issues from stylistic recommendations.
 
 ### 5. UX writing recommendations
 
@@ -163,7 +210,11 @@ When the content appears in a digital interface:
 - evaluate buttons, labels, error messages and calls to action,
 - identify vague or inconsistent terminology,
 - suggest concise alternatives,
-- explain how the proposed wording supports the user journey.
+- explain how the proposed wording supports the user journey,
+- identify language that may be manipulative, misleading or unnecessarily high-pressure,
+- verify whether the consequences of accepting, declining or cancelling an action are clear,
+- assess whether users receive enough information to make an informed decision,
+- consider mobile readability and space limitations.
 
 If the content is not interface copy, write: "Not applicable."
 
@@ -171,7 +222,9 @@ If the content is not interface copy, write: "Not applicable."
 
 Rewrite the content while preserving its intended meaning, purpose and relevant brand terminology.
 
-Do not add facts, promises, statistics or product features that are not present in the original content or source materials.
+Do not add facts, promises, statistics, sources, product features or legal interpretations that are not present in the original content or provided source materials.
+
+Preserve any wording required by brand, legal or product guidelines unless it creates a clear accuracy, usability or accessibility issue.
 
 ### 7. Final quality checklist
 
@@ -184,27 +237,34 @@ Mark each item as:
 Checklist:
 
 - factual accuracy,
+- source support,
 - clarity,
 - structure,
 - tone of voice,
 - audience relevance,
 - brand consistency,
 - accessibility,
+- inclusive language,
 - SEO,
+- terminology consistency,
 - calls to action,
+- user guidance,
+- mobile readability,
 - final editorial approval.
 
 IMPORTANT RULES
 
-- Do not invent missing facts or sources.
+- Do not invent missing facts, sources or product information.
 - Clearly distinguish factual issues from stylistic recommendations.
 - Preserve terminology that is required by the brand or product.
 - Explain significant changes instead of rewriting the text without justification.
+- Identify any claim that cannot be verified using the provided materials.
+- Do not treat model knowledge as sufficient evidence.
+- Do not expose, reproduce or infer confidential or personal information.
 - Treat the final output as an editorial recommendation requiring human approval.
 ```
 
 ## How to use it
-
 Replace all information in square brackets with the context of the task and paste the content requiring review.
 
 For marketing content without an interface or user journey, enter:
@@ -213,7 +273,15 @@ For marketing content without an interface or user journey, enter:
 User journey or interface context: Not applicable
 ```
 
+For content without specific accessibility or usability requirements, enter:
+
+```text
+Accessibility or usability requirements: Not provided
+```
+
 For reliable fact-checking, attach or paste the source materials used to create the original content.
+
+Before submitting any material, remove confidential information and personal data that has not been approved for use in an external AI system.
 
 ## Limitations
 This workflow focuses primarily on content quality and UX writing.
@@ -224,10 +292,18 @@ It does not replace:
 - usability testing with real users,
 - visual interface assessment,
 - technical SEO audits,
-- product design or UI design review.
+- product design or UI design review,
+- internal data-security or compliance procedures.
 
-Screenshots, prototypes or additional product context may be required to evaluate how the content works within the complete interface.
+Screenshots, prototypes, analytics, user research or additional product context may be required to evaluate how the content works within the complete interface.
+
+The workflow cannot independently confirm factual claims without reliable source materials.
 
 ## Status
+Version 1.0 of the reusable prompt is complete.
 
-The complete prompt and practical example will be added in the next version.
+The next version will include:
+- a practical content review example,
+- a comparison of the original and improved copy,
+- editorial decision notes,
+- prompt testing observations.
