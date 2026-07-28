@@ -224,3 +224,40 @@ The following context fields were therefore added:
 ```text
 - Immediate action after the CTA: [describe exactly what happens after the user selects the CTA]
 - Confirmed product facts: [list only verified product features, conditions and process details]
+```
+
+The following rule was also added:
+```text
+Do not infer product features, account requirements or interaction steps that are not explicitly listed in the confirmed product facts, user journey or source materials.
+```
+
+These changes are intended to reduce the risk of models introducing plausible but unverified product details.
+
+## Key lessons
+1. A detailed analysis does not guarantee a factually safer rewrite.
+2. Models may introduce new assumptions even after correctly identifying unsupported claims.
+3. CTA recommendations require precise information about the immediate next step.
+4. Quality checklists can create false confidence when the model lacks full context.
+5. A structured prompt improves consistency but does not remove the need for human review.
+6. Comparing model outputs can reveal weaknesses that are not visible when testing only one model.
+7. Prompt testing should lead to documented improvements rather than simply selecting a preferred output.
+
+## Limitations
+This comparison is based on:
+- one content sample,
+- one response from each model,
+- no repeated runs,
+- no source materials,
+- model versions that were not recorded,
+- qualitative editorial assessment rather than a formal benchmark.
+
+The results should therefore be treated as a practical portfolio experiment, not a universal performance evaluation.
+
+## Conclusion
+Both models identified the central problems in the original content.
+
+Claude was stronger at explaining the editorial and UX risks. ChatGPT was stronger at producing a cautious final version aligned with the immediate user journey.
+
+The test confirms that the most reliable workflow is:
+
+**Structured prompt → Multiple model outputs → Editorial comparison → Product verification → Human decision → Final approval**
