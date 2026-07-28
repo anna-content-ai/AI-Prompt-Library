@@ -230,7 +230,6 @@ Preserve any wording required by brand, legal or product guidelines unless it cr
 ### 7. Final quality checklist
 
 Mark each item as:
-
 - Ready
 - Requires review
 - Not applicable
@@ -321,8 +320,9 @@ Completed:
 - practical SaaS landing page case study,
 - product-fact and CTA context controls,
 - initial ChatGPT and Claude prompt test.
+- ChatGPT and Claude output comparison.
 
 Next steps:
-- ChatGPT and Claude output comparison,
-- prompt testing observations,
-- additional content review examples.
+- additional content review examples,
+- content repurposing workflow,
+- research and fact-checking workflow.
