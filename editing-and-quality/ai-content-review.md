@@ -1,6 +1,6 @@
 # AI-Generated Content and UX Writing Review
 
-> **Version:** 1.0  
+> **Version:** 1.1  
 > **Last updated:** July 2026  
 > **Scope:** Marketing content, editorial quality assurance and UX writing
 
@@ -37,6 +37,8 @@ Before using the prompt, provide:
 - source materials, when available,
 - the user journey or interface context,
 - the action the user should complete,
+- the immediate action after the call to action,
+- confirmed product facts and approved product information,
 - character or space limitations,
 - accessibility and usability requirements.
 
@@ -263,6 +265,8 @@ IMPORTANT RULES
 ```
 
 ## How to use it
+Replace all information in square brackets with the context of the task and paste the content requiring review.
+
 For interface content, describe exactly what happens after the user selects the call to action. This prevents the model from proposing a button label based on an assumed product flow.
 
 Under confirmed product facts, include only information verified through approved product documentation or source materials. If no facts have been confirmed, enter:
@@ -270,7 +274,17 @@ Under confirmed product facts, include only information verified through approve
 ```text
 Confirmed product facts: Not provided
 ```
+
+For marketing content without an interface or user journey, enter:
+
+```text
 User journey or interface context: Not applicable
+```
+
+For content without a call to action, enter:
+
+```text
+Immediate action after the CTA: Not applicable
 ```
 
 For content without specific accessibility or usability requirements, enter:
@@ -278,6 +292,10 @@ For content without specific accessibility or usability requirements, enter:
 ```text
 Accessibility or usability requirements: Not provided
 ```
+
+For reliable fact-checking, attach or paste the source materials used to create the original content.
+
+Before submitting any material, remove confidential information and personal data that has not been approved for use in an external AI system.
 
 For reliable fact-checking, attach or paste the source materials used to create the original content.
 
