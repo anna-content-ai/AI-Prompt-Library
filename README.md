@@ -37,6 +37,9 @@ Prompts for content structure, headings, metadata, internal linking and on-page 
 ### Content repurposing
 Workflows for adapting one source material into multiple formats and communication channels.
 
+## Practical examples
+- [AI Content Review – SaaS Landing Page and UX Writing](case-studies/ai-content-review-example.md)
+
 ## Editorial principles
 AI-generated content should not be treated as a finished product.
 
