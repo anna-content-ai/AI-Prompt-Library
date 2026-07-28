@@ -137,7 +137,6 @@ CONTENT TO REVIEW
 REVIEW PROCESS
 
 Evaluate the content for:
-
 1. factual accuracy and unsupported claims,
 2. clarity and readability,
 3. logical structure and information hierarchy,
@@ -160,7 +159,6 @@ OUTPUT FORMAT
 Provide a concise assessment of the content and its readiness for publication.
 
 End the assessment with one publication recommendation:
-
 - Ready for publication
 - Ready after minor revisions
 - Requires substantial revision
@@ -236,7 +234,6 @@ Mark each item as:
 - Not applicable
 
 Checklist:
-
 - factual accuracy,
 - source support,
 - clarity,
@@ -258,14 +255,21 @@ IMPORTANT RULES
 - Do not infer product features, account requirements or interaction steps that are not explicitly listed in the confirmed product facts, user journey or source materials.
 - Clearly distinguish factual issues from stylistic recommendations.
 - Preserve terminology that is required by the brand or product.
+- Explain significant changes instead of rewriting the text without justification.
+- Identify any claim that cannot be verified using the provided materials.
+- Do not treat model knowledge as sufficient evidence.
+- Do not expose, reproduce or infer confidential or personal information.
+- Treat the final output as an editorial recommendation requiring human approval.
 ```
 
 ## How to use it
-Replace all information in square brackets with the context of the task and paste the content requiring review.
+For interface content, describe exactly what happens after the user selects the call to action. This prevents the model from proposing a button label based on an assumed product flow.
 
-For marketing content without an interface or user journey, enter:
+Under confirmed product facts, include only information verified through approved product documentation or source materials. If no facts have been confirmed, enter:
 
 ```text
+Confirmed product facts: Not provided
+```
 User journey or interface context: Not applicable
 ```
 
