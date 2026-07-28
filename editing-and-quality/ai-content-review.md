@@ -297,10 +297,6 @@ For reliable fact-checking, attach or paste the source materials used to create 
 
 Before submitting any material, remove confidential information and personal data that has not been approved for use in an external AI system.
 
-For reliable fact-checking, attach or paste the source materials used to create the original content.
-
-Before submitting any material, remove confidential information and personal data that has not been approved for use in an external AI system.
-
 ## Limitations
 This workflow focuses primarily on content quality and UX writing.
 
@@ -318,10 +314,15 @@ Screenshots, prototypes, analytics, user research or additional product context 
 The workflow cannot independently confirm factual claims without reliable source materials.
 
 ## Status
-Version 1.0 of the reusable prompt is complete.
+Version 1.1 of the reusable prompt is complete.
 
-The next version will include:
-- a practical content review example,
-- a comparison of the original and improved copy,
-- editorial decision notes,
-- prompt testing observations.
+Completed:
+- reusable content and UX writing review prompt,
+- practical SaaS landing page case study,
+- product-fact and CTA context controls,
+- initial ChatGPT and Claude prompt test.
+
+Next steps:
+- ChatGPT and Claude output comparison,
+- prompt testing observations,
+- additional content review examples.
