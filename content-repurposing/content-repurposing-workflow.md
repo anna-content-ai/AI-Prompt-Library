@@ -190,7 +190,6 @@ The content should:
 ### Instagram carousel
 
 The content should:
-
 - communicate one main idea,
 - use one clear message per slide,
 - begin with a strong and specific cover,
@@ -347,7 +346,7 @@ Before publication, confirm that:
 
 ## Data privacy and confidentiality
 
-efore submitting source material to an AI tool:
+Before submitting source material to an AI tool:
 - remove unnecessary personal data,
 - anonymize customer, employee and partner information,
 - exclude confidential or unpublished business information,
@@ -367,10 +366,16 @@ This workflow does not replace:
 AI cannot independently determine whether business information is current, approved or safe to publish.
 
 ## Status
+
 Version 1.0 of the content repurposing workflow is complete.
 
+Completed:
+- reusable content repurposing workflow,
+- practical newsletter repurposing case study,
+- source-to-channel adaptation comparison,
+- editorial observations and measurement plan.
+
 Next steps:
-- practical content repurposing case study,
-- source-to-channel comparison,
-- testing the workflow in ChatGPT and Claude,
-- documenting editorial observations.
+- test the workflow in ChatGPT and Claude,
+- document model-specific observations,
+- create a research and fact-checking workflow.
