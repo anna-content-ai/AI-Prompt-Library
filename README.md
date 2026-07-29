@@ -40,6 +40,7 @@ Workflows for adapting one source material into multiple formats and communicati
 ## Practical examples
 - [AI Content Review – SaaS Landing Page and UX Writing](case-studies/ai-content-review-example.md)
 - [ChatGPT vs Claude – AI Content Review Comparison](case-studies/chatgpt-vs-claude-content-review.md)
+- [Newsletter Content Repurposing – AI Prościej](case-studies/newsletter-content-repurposing-example.md)
 
 ## Editorial principles
 AI-generated content should not be treated as a finished product.
