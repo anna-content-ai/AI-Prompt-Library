@@ -1,80 +1,94 @@
-# AI Prompt Library
-A curated collection of practical prompts and structured workflows for content creation, editing, research and quality assurance.
-This project documents how I use generative AI to support marketing and editorial work while keeping human judgment, fact-checking and brand consistency at the centre of the process.
+# Anna Ziółkowska
 
-## Purpose
-The library is designed to support:
-- content research and planning,
-- AI-assisted drafting,
-- editorial review and quality control,
-- social media content creation,
-- SEO optimization,
-- content repurposing,
-- fact-checking and source verification,
-- brand voice consistency.
+**Content Marketing & AI-Assisted Content Specialist | Warsaw, Poland**
 
-## How the prompts are documented
-Each prompt or workflow will include:
-1. **Use case** – when and why it should be used.
-2. **Input requirements** – the context and materials needed.
-3. **Prompt structure** – the complete instruction for the model.
-4. **Expected output** – the required format and level of detail.
-5. **Quality criteria** – how the result should be evaluated.
-6. **Human review** – what still requires editorial verification.
-7. **Example** – a practical application of the workflow.
+I am a marketing and content professional with 9+ years of experience in content creation, social media, digital marketing and brand communication.
 
-## Categories
-### Content marketing
-Prompts for articles, landing pages, newsletters, campaign concepts and editorial planning.
-### Editing and quality assurance
-Workflows for reviewing clarity, accuracy, structure, tone of voice and audience relevance.
-### Research and fact-checking
-Prompts for organizing source materials, identifying unsupported claims and preparing verification checklists.
-### Social media
-Prompts for LinkedIn, Instagram, Facebook, TikTok and YouTube content.
-### SEO content
-Prompts for content structure, headings, metadata, internal linking and on-page optimization.
-### Content repurposing
-Workflows for adapting one source material into multiple formats and communication channels.
+I combine content strategy, editorial judgment and practical AI workflows to create clear, accurate and audience-focused content. My work focuses on improving research, content production, editing, fact-checking, quality control and cross-channel content adaptation.
 
-## Practical examples
-- [AI Content Review – SaaS Landing Page and UX Writing](case-studies/ai-content-review-example.md)
-- [ChatGPT vs Claude – AI Content Review Comparison](case-studies/chatgpt-vs-claude-content-review.md)
-- [Newsletter Content Repurposing – AI Prościej](case-studies/newsletter-content-repurposing-example.md)
-- [Airline Brand Impersonation Research – LOT Case Study](case-studies/airline-brand-impersonation-research-example.md)
+## Professional focus
 
-## Editorial principles
-AI-generated content should not be treated as a finished product.
+- Content strategy and editorial planning
+- AI-assisted content creation and editing
+- Social media and brand communication
+- Content quality evaluation and UX writing
+- Research, fact-checking and source verification
+- Content repurposing across digital channels
+- Prompt design and structured AI workflows
+- SEO content and on-page optimization
+- WordPress content publishing
 
-Every output requires human review for:
-- factual accuracy,
-- relevance and context,
-- tone and brand consistency,
-- clarity and readability,
-- unsupported or misleading claims,
-- unnecessary repetition,
-- audience fit,
-- final editorial quality.
+## Featured work
 
-## Tools used in this project
-| Area | Tools | Application |
-|---|---|---|
-| **AI content creation and editing** | ChatGPT, Claude | Prompt testing, drafting, rewriting, content review and output comparison |
-| **Research and source analysis** | NotebookLM | Working with source materials, extracting insights and organizing research |
-| **Language editing and translation** | DeepL | Translation, language refinement and clarity checks |
-| **Documentation and project organization** | GitHub, Notion | Documenting prompts, workflows, examples and project development |
-| **Visual content support** | Canva | Preparing simple diagrams, prompt cards and supporting visuals |
+| Project | What it demonstrates |
+|---|---|
+| [AI Prompt Library](https://github.com/anna-content-ai/AI-Prompt-Library) | Practical prompts, documented workflows and case studies for content, editing, research and quality assurance |
+| [AI Content Review – SaaS Landing Page and UX Writing](https://github.com/anna-content-ai/AI-Prompt-Library/blob/main/case-studies/ai-content-review-example.md) | Editorial review, unsupported-claim detection, UX writing and safer interface copy |
+| [ChatGPT vs Claude – Content Review Comparison](https://github.com/anna-content-ai/AI-Prompt-Library/blob/main/case-studies/chatgpt-vs-claude-content-review.md) | Model-output evaluation, prompt testing, factual caution and human editorial decision-making |
+| [Newsletter Content Repurposing – AI Prościej](https://github.com/anna-content-ai/AI-Prompt-Library/blob/main/case-studies/newsletter-content-repurposing-example.md) | Adapting one educational source into LinkedIn, Instagram, email and short-form video content |
+| [Airline Brand Impersonation Research – LOT Case Study](https://github.com/anna-content-ai/AI-Prompt-Library/blob/main/case-studies/airline-brand-impersonation-research-example.md) | Source verification, claim-evidence assessment, risk communication and responsible AI-supported research |
 
-Tool selection depends on the task, source materials and required level of editorial control. AI-generated outputs are always reviewed and refined before publication.
+## What this portfolio demonstrates
 
-## Repository structure
-```text
-AI-Prompt-Library/
-├── content-marketing/
-├── editing-and-quality/
-├── research-and-fact-checking/
-├── social-media/
-├── seo-content/
-├── content-repurposing/
-├── case-studies/
-└── README.md
+- designing reusable AI-assisted content workflows,
+- evaluating AI-generated outputs instead of treating them as finished content,
+- identifying unsupported claims and information requiring verification,
+- comparing model outputs and documenting their limitations,
+- adapting content to different audiences and communication channels,
+- separating verified facts from interpretations, assumptions and unknowns,
+- maintaining human responsibility for final editorial decisions.
+
+## How I work with AI
+
+I use AI to support the content process rather than replace editorial judgment.
+
+My typical workflow:
+
+**Research → Content brief → Prompt design → Draft → Human editing → Fact-checking → Channel adaptation → Publication**
+
+I work primarily with ChatGPT, Claude and NotebookLM to:
+
+- organize research and source materials,
+- create content structures and first drafts,
+- review content for clarity, accuracy and consistency,
+- adapt materials to different audiences and channels,
+- compare alternative outputs and editorial approaches,
+- identify unsupported claims and information gaps,
+- document reusable content and research processes.
+
+Every AI-generated output requires human review before publication.
+
+## Tools
+
+| Area | Tools |
+|---|---|
+| **AI and research** | ChatGPT, Claude, NotebookLM |
+| **Language editing and translation** | DeepL |
+| **Content management and email** | WordPress, GetResponse |
+| **Graphic design and illustration** | Figma, Canva, Adobe InDesign, Adobe Illustrator, Adobe Photoshop, Procreate |
+| **Video and audio** | CapCut, ElevenLabs |
+| **Analytics and insights** | Google Analytics 4, Google Trends |
+| **Social media** | Meta Business Suite, LinkedIn, TikTok, YouTube |
+| **Project management and collaboration** | Microsoft Teams, Trello, Asana, Notion, Google Workspace |
+| **Marketing operations** | Microsoft Office |
+
+## Current projects
+
+### AI Prościej
+
+A personal educational content concept focused on making AI tools and workflows easier to understand and use in everyday marketing and office work.
+
+### Brand Impersonation Detection with AI
+
+A postgraduate thesis combining marketing, artificial intelligence and cybersecurity. The project focuses on detecting false promotions and digital content impersonating airline brands.
+
+### Visual portfolio
+
+A dedicated portfolio website presenting selected content, social media, AI-assisted workflow and research projects is currently in development.
+
+## Contact
+
+- **LinkedIn:** [Anna Ziółkowska](https://bit.ly/linkedin-anna-ziolkowska)
+- **GitHub project:** [AI Prompt Library](https://github.com/anna-content-ai/AI-Prompt-Library)
+- **Email:** [aiprosciej@gmail.com](mailto:aiprosciej@gmail.com)
+- **Portfolio website:** In development
