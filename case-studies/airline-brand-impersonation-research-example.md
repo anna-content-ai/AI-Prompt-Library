@@ -411,7 +411,7 @@ These are plausible interpretations, not confirmed statements about the operator
 
 The sources above were selected because they provide official brand guidance, current European threat context and the official incident-reporting route in Poland.
 
-**Source links rechecked:** 30 July 2026
+**Source links rechecked:** 1 August 2026
 
 Webpages and public guidance may change after the research cut-off date. Links and instructions should therefore be rechecked before publication or operational use.
 
