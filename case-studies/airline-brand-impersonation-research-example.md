@@ -164,7 +164,7 @@ Each claim must be assessed separately.
 | C4 | The offer ends today | Unverified | The claim appears only in the advertisement | Advertisement | Low | The deadline creates urgency but does not provide evidence |
 | C5 | A PLN 9 processing fee is required | Unverified and high risk | No official payment rules or campaign terms were provided | Landing page under review | Low | Payment should not be made until the campaign is confirmed through LOT |
 | C6 | Users must provide login and booking information | Contradicted by safety guidance | LOT advises users not to disclose login details and to protect booking information when identity is uncertain | Official brand guidance | High | The request is inconsistent with published safety advice |
-| C7 | A LOT representative will contact the user through Messenger | Contradicted | LOT warns users about impersonation and states that it does not initiate passenger correspondence through social media channels | Official brand warning | High | The proposed contact method is a significant warning signal |
+| C7 | A LOT representative will contact the user through Messenger | High-risk and unsupported | LOT warns that scammers may use Messenger and other communication channels when impersonating the airline | Official brand guidance | High | Messenger contact does not prove authenticity and should be verified independently through LOT’s official channels |
 | C8 | Brand visuals prove authenticity | Unsupported | Scammers may reproduce logos, layouts, photos and profile names | Official warnings about lookalike pages and false profiles | High | Visual similarity is not evidence of ownership |
 | C9 | High numbers of likes or comments prove that the offer is real | Unsupported | Engagement can be manipulated, automated or unrelated to authenticity | No reliable supporting evidence | Low | Social engagement should not be used as verification |
 | C10 | The incident can be reported to CERT Polska | Supported | Official Polish guidance directs suspicious domains and phishing reports to CERT Polska | Government source | High | The user should preserve evidence and submit a report |
@@ -183,9 +183,9 @@ A page using a similar name, logo or visual identity should not be treated as of
 
 The promotion states that the participant will be contacted through Messenger.
 
-This conflicts with LOT’s published warning about people impersonating the airline and its guidance concerning social-media correspondence.
+LOT’s published passenger guidance identifies Messenger and other communication channels as methods that may be used by people impersonating the airline.
 
-A profile name or logo is not sufficient proof that the sender represents the airline.
+Messenger contact therefore does not confirm that the sender represents LOT. The user should verify the contact independently through the official LOT website, email address or contact centre.
 
 ### 3. Promotion verification
 
@@ -400,6 +400,20 @@ These are plausible interpretations, not confirmed statements about the operator
 | Gov.pl incident guidance | High | Current at research cut-off | Official reporting instructions | Government source | Directly relevant to reporting |
 | Advertisement engagement and comments | Low | Current but unstable | Indirect | Unknown | Insufficient for authenticity |
 | AI-generated assessment | Not evidence | Generated during analysis | Indirect | Model-dependent | Useful only as editorial support |
+
+## Sources reviewed
+
+- [LOT Polish Airlines — Cybersecurity guidance for passengers](https://www.lot.com/pl/pl/cyberbezpieczenstwo/cyberbezpieczenstwo-dla-pasazerow)
+- [LOT Polish Airlines — Cybersecurity information](https://www.lot.com/pl/pl/cyberbezpieczenstwo)
+- [ENISA — Threat Landscape 2025](https://www.enisa.europa.eu/publications/enisa-threat-landscape-2025)
+- [Gov.pl — Official incident-reporting guidance](https://www.gov.pl/web/baza-wiedzy/zglaszanie-incydentow)
+- [CERT Polska — Incident-reporting form](https://incydent.cert.pl/)
+
+The sources above were selected because they provide official brand guidance, current European threat context and the official incident-reporting route in Poland.
+
+**Source links rechecked:** 30 July 2026
+
+Webpages and public guidance may change after the research cut-off date. Links and instructions should therefore be rechecked before publication or operational use.
 
 ## Human editorial contribution
 
