@@ -645,9 +645,21 @@ Webpages, product documentation and public statements may also change after the 
 ## Status
 Version 1.0 of the research and fact-checking workflow is complete.
 
-Next steps:
-- create a practical research case study,
-- build a completed claim-evidence register,
-- test the workflow on a time-sensitive topic,
+### Completed
+
+- reusable research and fact-checking workflow,
+- source hierarchy and assessment criteria,
+- claim-evidence register,
+- quotation and numerical-claim verification guidance,
+- conflict and uncertainty handling,
+- human review and privacy checklist,
+- practical airline brand impersonation case study,
+- completed risk and evidence assessment,
+- official source documentation.
+
+### Future development
+
+- test the workflow on a second time-sensitive topic,
 - compare ChatGPT and Claude research outputs,
-- document errors, limitations and prompt improvements.
+- document model-specific errors and unsupported assumptions,
+- refine the workflow based on practical testing.
