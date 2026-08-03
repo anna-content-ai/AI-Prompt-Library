@@ -239,7 +239,7 @@ Visual identity can be copied without authorization.
 | Large discount without official rules | The financial benefit is not supported by transparent terms | High |
 | Immediate payment request | The page attempts to collect money before authenticity is confirmed | High |
 | Login and card details requested | Compromise could affect accounts and financial information | High |
-| Messenger contact promised | Conflicts with published brand communication guidance | High |
+| Messenger contact promised | Messenger may be used in impersonation attempts and does not confirm the sender’s identity | High |
 | “Today only” deadline | Creates pressure and reduces time for verification | Medium–high |
 | Request to share with friends | May be used to expand distribution through trusted contacts | Medium |
 | Logo and professional design | May create false authority without proving ownership | Medium |
@@ -262,7 +262,7 @@ The assessment is based on the combination of:
 - a payment request,
 - high-pressure language,
 - social sharing,
-- contact through a channel inconsistent with the airline’s published guidance.
+- contact through a channel that LOT identifies as potentially used in impersonation attempts.
 
 No single visual indicator is used as proof.
 
@@ -390,17 +390,6 @@ These are plausible interpretations, not confirmed statements about the operator
 - whether the advertiser controls other domains,
 - whether law enforcement is already investigating.
 
-## Source-quality assessment
-
-| Source | Authority | Recency | Proximity to evidence | Independence | Relevance |
-|---|---|---|---|---|---|
-| LOT cybersecurity guidance | High | Current at research cut-off | Direct brand source | Brand-owned | Directly relevant |
-| LOT impersonation warning | High | Current at research cut-off | Direct brand source | Brand-owned | Directly relevant |
-| ENISA Threat Landscape 2025 | High | Recent | Official threat analysis | Independent EU agency | Relevant as general context |
-| Gov.pl incident guidance | High | Current at research cut-off | Official reporting instructions | Government source | Directly relevant to reporting |
-| Advertisement engagement and comments | Low | Current but unstable | Indirect | Unknown | Insufficient for authenticity |
-| AI-generated assessment | Not evidence | Generated during analysis | Indirect | Model-dependent | Useful only as editorial support |
-
 ## Sources reviewed
 
 - [LOT Polish Airlines — Cybersecurity guidance for passengers](https://www.lot.com/pl/pl/cyberbezpieczenstwo/cyberbezpieczenstwo-dla-pasazerow)
@@ -412,6 +401,19 @@ These are plausible interpretations, not confirmed statements about the operator
 The sources above were selected because they provide official brand guidance, current European threat context and the official incident-reporting route in Poland.
 
 **Source links rechecked:** 1 August 2026
+
+Webpages and public guidance may change after the research cut-off date. Links and instructions should therefore be rechecked before publication or operational use.
+
+## Source-quality assessment
+
+| Source | Authority | Recency | Proximity to evidence | Independence | Relevance |
+|---|---|---|---|---|---|
+| LOT cybersecurity guidance | High | Current at research cut-off | Direct brand source | Brand-owned | Directly relevant |
+| LOT impersonation warning | High | Current at research cut-off | Direct brand source | Brand-owned | Directly relevant |
+| ENISA Threat Landscape 2025 | High | Recent | Official threat analysis | Independent EU agency | Relevant as general context |
+| Gov.pl incident guidance | High | Current at research cut-off | Official reporting instructions | Government source | Directly relevant to reporting |
+| Advertisement engagement and comments | Low | Current but unstable | Indirect | Unknown | Insufficient for authenticity |
+| AI-generated assessment | Not evidence | Generated during analysis | Indirect | Model-dependent | Useful only as editorial support |
 
 Webpages and public guidance may change after the research cut-off date. Links and instructions should therefore be rechecked before publication or operational use.
 
