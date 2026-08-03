@@ -366,16 +366,20 @@ This workflow does not replace:
 AI cannot independently determine whether business information is current, approved or safe to publish.
 
 ## Status
-
 Version 1.0 of the content repurposing workflow is complete.
 
-Completed:
+### Completed
+
 - reusable content repurposing workflow,
 - practical newsletter repurposing case study,
+- adaptation into LinkedIn, Instagram, email and short-form video formats,
 - source-to-channel adaptation comparison,
-- editorial observations and measurement plan.
+- editorial observations and measurement plan,
+- human review and privacy guidance.
 
-Next steps:
+### Future development
+
 - test the workflow in ChatGPT and Claude,
-- document model-specific observations,
-- create a research and fact-checking workflow.
+- document model-specific differences,
+- refine channel requirements based on practical testing,
+- add performance observations after publishing selected assets.
