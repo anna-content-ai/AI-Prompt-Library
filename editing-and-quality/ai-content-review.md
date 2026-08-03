@@ -313,16 +313,23 @@ Screenshots, prototypes, analytics, user research or additional product context 
 The workflow cannot independently confirm factual claims without reliable source materials.
 
 ## Status
-Version 1.1 of the reusable prompt is complete.
 
-Completed:
+Version 1.1 of the AI-generated content and UX writing review workflow is complete.
+
+### Completed
+
 - reusable content and UX writing review prompt,
+- factual-claim and source-support controls,
+- product-fact and CTA context requirements,
+- UX writing and accessibility review criteria,
 - practical SaaS landing page case study,
-- product-fact and CTA context controls,
-- initial ChatGPT and Claude prompt test.
-- ChatGPT and Claude output comparison.
+- ChatGPT and Claude prompt testing,
+- ChatGPT and Claude output comparison,
+- documented human editorial contribution and limitations.
 
-Next steps:
-- additional content review examples,
-- content repurposing workflow,
-- research and fact-checking workflow.
+### Future development
+
+- test the workflow on additional content types,
+- add a second interface-copy example,
+- document model-specific errors observed during future testing,
+- refine the checklist using real publication and usability feedback.
