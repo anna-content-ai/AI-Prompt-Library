@@ -415,8 +415,6 @@ Webpages and public guidance may change after the research cut-off date. Links a
 | Advertisement engagement and comments | Low | Current but unstable | Indirect | Unknown | Insufficient for authenticity |
 | AI-generated assessment | Not evidence | Generated during analysis | Indirect | Model-dependent | Useful only as editorial support |
 
-Webpages and public guidance may change after the research cut-off date. Links and instructions should therefore be rechecked before publication or operational use.
-
 ## Human editorial contribution
 
 Human judgment was required to:
