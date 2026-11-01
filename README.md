@@ -61,6 +61,7 @@ Workflows for adapting one source material into multiple formats and communicati
 |---|---|---|
 | [LinkedIn Hook Workshop](social-media/linkedin-hook-workshop.md) | Social media | You have an insight and need six opening options to compare |
 | [LinkedIn Carousel Outline](social-media/linkedin-carousel-outline.md) | Social media | A topic has several steps and needs one idea per slide |
+| [Social Channel Audit](social-media/social-channel-audit.md) | Social media | A channel publishes regularly but results are flat and you need prioritised changes |
 | [Search Intent Brief](seo-content/search-intent-brief.md) | SEO content | You plan a page around a query and need the intent checked first |
 | [Personal Brand Positioning](content-marketing/personal-brand-positioning.md) | Content marketing | A portfolio or profile does not clearly say what you do |
 | [AI Fingerprint Review](editing-and-quality/ai-fingerprint-review.md) | Editing and QA | A draft is accurate but reads as generic |
@@ -115,7 +116,8 @@ AI-Prompt-Library/
 │   └── research-and-fact-checking-workflow.md
 ├── social-media/
 │   ├── linkedin-carousel-outline.md
-│   └── linkedin-hook-workshop.md
+│   ├── linkedin-hook-workshop.md
+│   └── social-channel-audit.md
 ├── seo-content/
 │   └── search-intent-brief.md
 ├── content-repurposing/
