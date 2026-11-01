@@ -55,6 +55,19 @@ Prompts for content structure, headings, metadata, internal linking and on-page 
 
 Workflows for adapting one source material into multiple formats and communication channels.
 
+## Prompt index
+
+| Prompt or workflow | Category | Use it when |
+|---|---|---|
+| [LinkedIn Hook Workshop](social-media/linkedin-hook-workshop.md) | Social media | You have an insight and need six opening options to compare |
+| [LinkedIn Carousel Outline](social-media/linkedin-carousel-outline.md) | Social media | A topic has several steps and needs one idea per slide |
+| [Search Intent Brief](seo-content/search-intent-brief.md) | SEO content | You plan a page around a query and need the intent checked first |
+| [Personal Brand Positioning](content-marketing/personal-brand-positioning.md) | Content marketing | A portfolio or profile does not clearly say what you do |
+| [AI Fingerprint Review](editing-and-quality/ai-fingerprint-review.md) | Editing and QA | A draft is accurate but reads as generic |
+| [AI Content Review](editing-and-quality/ai-content-review.md) | Editing and QA | You need a full editorial and UX writing review |
+| [Research and Fact-Checking Workflow](research-and-fact-checking/research-and-fact-checking-workflow.md) | Research | You need a verifiable source-based summary |
+| [Content Repurposing Workflow](content-repurposing/content-repurposing-workflow.md) | Content repurposing | One approved source must become several channel formats |
+
 ## Practical examples
 
 - [AI Content Review – SaaS Landing Page and UX Writing](case-studies/ai-content-review-example.md)
@@ -94,10 +107,19 @@ Tool selection depends on the task, source materials and required level of edito
 ```text
 AI-Prompt-Library/
 ├── content-marketing/
+│   └── personal-brand-positioning.md
 ├── editing-and-quality/
+│   ├── ai-content-review.md
+│   └── ai-fingerprint-review.md
 ├── research-and-fact-checking/
+│   └── research-and-fact-checking-workflow.md
 ├── social-media/
+│   ├── linkedin-carousel-outline.md
+│   └── linkedin-hook-workshop.md
 ├── seo-content/
+│   └── search-intent-brief.md
 ├── content-repurposing/
+│   └── content-repurposing-workflow.md
 ├── case-studies/
 └── README.md
+```
