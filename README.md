@@ -69,6 +69,19 @@ Workflows for adapting one source material into multiple formats and communicati
 | [Research and Fact-Checking Workflow](research-and-fact-checking/research-and-fact-checking-workflow.md) | Research | You need a verifiable source-based summary |
 | [Content Repurposing Workflow](content-repurposing/content-repurposing-workflow.md) | Content repurposing | One approved source must become several channel formats |
 
+## Claude Skills
+
+Four of the workflows are also packaged as **Claude Skills**: folders with a `SKILL.md` file that Claude loads automatically when a request matches the skill's description. The prompt files above document the method; the skills make it reusable without copying prompts.
+
+| # | Skill | Use it when | Example trigger phrases | File |
+|---|---|---|---|---|
+| 1 | Content Review | A draft, landing page or interface copy needs checking before publication | „sprawdź ten tekst”, „czy to można opublikować”, “review this copy” | [SKILL.md](claude-skills/content-review/SKILL.md) |
+| 2 | Fact-Check | Claims, numbers, dates or quotes need sources | „sprawdź fakty”, „skąd ta liczba”, “fact-check this” | [SKILL.md](claude-skills/fact-check/SKILL.md) |
+| 3 | Content Repurposing | One approved source must become posts, a carousel, a newsletter and a video script | „przerób to na posty”, “repurpose this” | [SKILL.md](claude-skills/content-repurposing/SKILL.md) |
+| 4 | Social Channel Audit | Platform statistics need analysis and a test plan | „przeanalizuj kanał”, “audit this channel” | [SKILL.md](claude-skills/social-channel-audit/SKILL.md) |
+
+**How to use them:** in Claude, add a skill folder through the skills settings (or place it in your Claude Code skills directory). Every skill keeps the same rule as the rest of this library: AI prepares the work, a human checks the facts and approves publication.
+
 ## Practical examples
 
 - [AI Content Review – SaaS Landing Page and UX Writing](case-studies/ai-content-review-example.md)
@@ -107,6 +120,11 @@ Tool selection depends on the task, source materials and required level of edito
 
 ```text
 AI-Prompt-Library/
+├── claude-skills/
+│   ├── content-review/SKILL.md
+│   ├── content-repurposing/SKILL.md
+│   ├── fact-check/SKILL.md
+│   └── social-channel-audit/SKILL.md
 ├── content-marketing/
 │   └── personal-brand-positioning.md
 ├── editing-and-quality/
